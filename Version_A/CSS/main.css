@@ -1,0 +1,30 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+:root {
+   --dark:black;
+   --medium: gray;
+   --light: white;
+   --cuasi: rgb(32, 32, 32);
+}
+
+.container {
+   display: grid;
+   grid-template-rows: auto auto auto auto;
+   gap: 2%;
+}
+
+.gridcontainer {
+    border: 1px solid var(--dark);
+    padding: 1%;
+    margin: 0;
+}
+
+.h1 {
+   background-color: var(--cuasi);
+   color: var(--light);
+   text-align: center;
+}
